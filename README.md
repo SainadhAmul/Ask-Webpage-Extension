@@ -26,7 +26,7 @@ Because this is a local extension, you can install it seamlessly without downloa
 2. Click the **Ask Page** extension icon.
 3. The Chat Side Panel will slide open. Type your question and let Gemini generate an answer using the page's context!
 
-[![Demo](https://img.youtu.be/6iKnZJUzk94/0.jpg)](https://youtu.be/6iKnZJUzk94)
+[![Demo](https://img.youtube.com/vi/6iKnZJUzk94/0.jpg)](https://youtu.be/6iKnZJUzk94)
 
 ---
 
