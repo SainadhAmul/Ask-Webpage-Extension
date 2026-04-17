@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ask Page</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+  </style>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Ask Page</h1>
+      <p>Powered by Gemini 3.0</p>
+    </header>
+    
+    <div id="chat-container">
+      <div class="message system">
+        Hi! I can answer questions about the current page. What would you like to know?
+      </div>
+    </div>
+    
+    <div class="input-area">
+      <textarea id="question-input" placeholder="Ask a question..." rows="1"></textarea>
+      <button id="send-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+      </button>
+    </div>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
