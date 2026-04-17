@@ -30,7 +30,4 @@ Because this is a local extension, you can install it seamlessly without downloa
 
 ---
 
-
-
-> **Security Warning**  
-> Since there is no build step included out-of-the-box, the `GEMINI_API_KEY` is embedded explicitly within `main.js`. Ensure you **do not push** this repository to public version control or publish it to the Chrome Web store without implementing an options/settings page to keep the key private.
+> Since there is no build step included out-of-the-box, the `GEMINI_API_KEY` needs to be added  within `main.js`
