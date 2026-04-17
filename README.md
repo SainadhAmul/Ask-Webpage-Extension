@@ -26,7 +26,11 @@ Because this is a local extension, you can install it seamlessly without downloa
 2. Click the **Ask Page** extension icon.
 3. The Chat Side Panel will slide open. Type your question and let Gemini generate an answer using the page's context!
 
+[![Demo](https://img.youtu.be/6iKnZJUzk94/0.jpg)](https://youtu.be/6iKnZJUzk94)
+
 ---
+
+
 
 > **Security Warning**  
 > Since there is no build step included out-of-the-box, the `GEMINI_API_KEY` is embedded explicitly within `main.js`. Ensure you **do not push** this repository to public version control or publish it to the Chrome Web store without implementing an options/settings page to keep the key private.
