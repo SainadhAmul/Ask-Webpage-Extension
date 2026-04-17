@@ -13,6 +13,8 @@ A minimalistic, zero-dependency Chrome extension that allows you to summarize, c
 
 Because this is a local extension, you can install it seamlessly without downloading anything from the Web Store:
 
+> The `GEMINI_API_KEY` needs to be added  within `main.js`
+
 1. Open Google Chrome and type `chrome://extensions/` into your address bar.
 2. In the top-right corner of the Extensions page, toggle **Developer mode** to **ON**.
 3. Click the **Load unpacked** button that appears in the top-left area.
@@ -28,6 +30,5 @@ Because this is a local extension, you can install it seamlessly without downloa
 
 [![Demo](https://img.youtube.com/vi/6iKnZJUzk94/0.jpg)](https://youtu.be/6iKnZJUzk94)
 
----
 
-> Since there is no build step included out-of-the-box, the `GEMINI_API_KEY` needs to be added  within `main.js`
+
